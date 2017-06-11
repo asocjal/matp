@@ -1,0 +1,43 @@
+@import url("../../common.css");
+
+html { 
+	background: url(background.jpg) no-repeat center center fixed; 	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+th:nth-child(1) {
+	background: #aaa;
+}
+
+tr td:nth-child(1) {
+    background: #88f;
+}
+
+tr td:nth-child(2) {
+    background: #aaf;
+}
+
+th:nth-child(2) {
+	background: #aaa;
+}
+
+tr td:nth-child(3) {
+    background: #8f8;
+}
+
+tr td:nth-child(4) {
+    background: #afa;
+}
+
+
